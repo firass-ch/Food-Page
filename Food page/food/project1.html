@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project1.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Document</title>
+
+</head>
+<body>
+
+  
+    <div class="navbar">
+        <a href="project.html" class="active">Home page</a>
+        <a id="formu">satisfaction formular</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Category</button>                      
+          <div class="dropdown-content">
+            <a  id="china">Chineese</a>
+            <a id="tunisia">Tunisian</a>
+            <a id="italy">Italian </a>
+            <a id="all">All</a>
+          </div>
+        </div> 
+    </div>
+    <header>WELCOME <br> 🌭 🍔 🍟 🍕 </header>
+    <section class="likesnbr">
+      likes number: <span class="likenumber">0</span>❤️   
+    </section> 
+
+  <div id="categorie">
+        
+    <div id="food">
+      <i class="fa fa-heart" aria-hidden="true"  style="font-size:36px ;" ></i> 
+      <div id="chineese">
+        <h1>Chineese food</h1>
+        <img src="chin1.jpg" alt="">
+        <img src="chin2.jpg" alt="">
+        <img src="chin3.jpg" alt="">
+        <img src="chin4.jpg" alt="">
+        <img src="chin5.jpg" alt="">
+        <img src="chin6.jpg" alt="">
+      </div>       
+    </div>
+
+    <div id="food">
+      <i class="fa fa-heart" aria-hidden="true"  style="font-size:36px ;" ></i>  
+      <div id="tunisian">
+        <h1>Tunisian food</h1> 
+        <img src="tun1.jpg" alt="">
+        <img src="tun2.jpg" alt="">
+        <img src="tun3.jpg" alt=""> 
+        <img src="tun4.jpg" alt="">
+        <img src="tun5.jpg" alt="">
+        <img src="tun6.jpg" alt="">
+        <img src="tun7.jpg" alt="">
+        <img src="tun8.jpg" alt="">
+        <img src="tun9.jpg" alt="">
+      </div> 
+    </div>
+    
+    <div id="food">   
+      <i class="fa fa-heart" aria-hidden="true"  style="font-size:36px ;" ></i>
+      <div id="italian">
+        <h1>Italian food</h1>
+        <img src="ita.jpg" alt="">
+        <img src="ita2.jpg" alt="">
+        <img src="ita3.jpg" alt=""> 
+        <img src="ita1.jpg" alt="">
+        <img src="ita4.jpg" alt="">
+        <img src="ita5.jpg" alt="">
+      </div> 
+    </div>
+  </div> 
+
+<div id="formulaire">
+
+  <p class="like"> did you like our web page ? </p>
+
+  <div class="contact">
+   <div action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+    <h1 class="w3-center" >Contact Us</h1>
+     
+    <div class="w3">
+        <div class="w3-col" style="width:100px"><i class="w3-xxlarge fa fa-user"></i>
+        </div>
+        <div class="w3-rest">
+          <input id="nom" class="text" name="full" type="text" placeholder="full name">
+        </div>
+    </div>
+  
+    <div class="w3">
+      <div class="w3-col" style="width:100px"><i class="w3-xxlarge fa fa-phone"></i></div>
+        <div class="w3-rest">
+          <input class="text" name="phone" type="phone" placeholder="Phone">
+        </div>
+    </div>  
+ 
+        <div class="w3-rest">
+          <input class="textarea" id="message" type="textarea" placeholder="I am very excited . It looks very delicious 😋😋">
+        </div>
+       <button id="signin">Send</button>
+
+        
+  </div> 
+</div>
+<button id="signi">click here to see old comments</button><br><br>
+<p id="paragraph"> comments : <br> </p>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+   <script src="./project1.js"></script> 
+
+</body>
+</html>

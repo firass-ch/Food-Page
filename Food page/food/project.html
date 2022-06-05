@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project one</title>
+    <link rel="stylesheet" href="project.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    
+  <header> 😋 Let's Eat 😋 <br> 🌭 🍔 🍟 🍕 </header>       
+  <section class="hello">     
+
+    <div class="accueil">
+          <div id = 'slider'class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>           
+              <div class="container">
+                <img src="couv2.jpg" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">Chineese food</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <div class="container">
+                <img src="couv1.jpg" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">Tunisian food</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <div class="container">
+                <img src="couv3.jpg" alt="Avatar" class="image">
+                <div class="middle">
+                  <div class="text">Italian food</div>
+                </div>
+              </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+          </div>
+          <br>
+              
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div> 
+    </div>   
+            <button id="signin">authentify</button>
+            <div class="authentif">              
+               <label for="username"  class="email"> Your email:</label>
+               <input type="email" id="email" name="email" placeholder="example@email.com" required> <br>
+               <label for="pass">Password(8 min):</label>
+               <input type="password" id="pass" name="password" minlength="8" required>
+             <input type="button" value="Sign in" id="sign" onclick="myfn1()" >
+            </div>
+  </section> 
+    
+
+
+
+
+
+ 
+        
+
+    
+  <script src="./project.js"></script>  
+</body>
+</html>
